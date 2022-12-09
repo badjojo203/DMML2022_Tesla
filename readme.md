@@ -1,4 +1,4 @@
-# Kaggle competition
+# Unil Kaggle competition
 ## Team Tesla
 
 **Members**: 

@@ -20,9 +20,9 @@
 <p>It is a machine learning algorithm that uses the aggregation of predictions from multiple independent classifiers to predict the class membership of a sample. It can be used to improve the accuracy of the prediction by combining the strengths of different classifiers.</p>
 
 <h2>Research methods</h2>
-<h4>Search for the best combination of cleaner/vectorizer/classifier</h4>
+<h3>Search for the best combination of cleaner/vectorizer/classifier</h3>
 <p>We used several methods to find the best combination of [data cleaning, vectorization, classifiers], including an algorithm that tries all combinations.</p>
-<h4>Search for the optimal parameters</h4>
+<h3>Search for the optimal parameters</h3>
 <p>We used <code>GridSearch</code> to find the best parameters for some classifiers.</p>
-<h5>Train test split</h5>
+<h4>Train test split</h4>
 <p>We've created a function that tries the test sizes and the optimum <code>random_state</code> for the <code>train_test_split</code> for each method.</p>

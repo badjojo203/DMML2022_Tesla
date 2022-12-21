@@ -14,7 +14,7 @@
 </ul>
 <h2>Approaches tested</h2>
 <ol>
-  <li>Clean the data
+  <li>Data Cleaning
     <ol>
       <li>Removal of empty words</li>
       <li>Data cleaning</li>
@@ -41,7 +41,16 @@
 </ol>
 <h2>Results</h2>
 
-[//]: # (<img src="documents/dinosaur.jpg">)
+[//]: # (<img src="documents/Results.jpg">)
+
+[//]: # (Which is the best model?)
+
+[//]: # (Show the confusion matrix.<img src="documents/ConfusionMatrix.jpg">)
+
+[//]: # (Show examples of some erroneous predictions. Can you understand where the error is coming from?)
+
+[//]: # (Do some more analysis to better understand how your model behaves.)
+
 
 <h2>Link to the Video</h2>
 

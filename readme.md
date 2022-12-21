@@ -36,8 +36,13 @@
       <li>VotingClassifier</li>
     </ol>
   </li>
+<p><br><br></p>
 <p>For more information about the approach, search Approach.md in the documents folder</p>
 </ol>
 <h2>Results</h2>
 
 [//]: # (<img src="documents/dinosaur.jpg">)
+
+<h2>Link to the Video</h2>
+
+[//]: # (<a href="url">link text</a>)

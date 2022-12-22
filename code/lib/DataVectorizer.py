@@ -6,7 +6,8 @@ class DataVectorizer:
         self.vectorizer = {
             "hash": HashingVectorizer(),
             "count": CountVectorizer(),
-            "tfidf": TfidfVectorizer()
+            "tfidf": TfidfVectorizer(),
+
         }
 
     def setVectorizer(self, name, vectorizer):
@@ -16,8 +17,16 @@ class DataVectorizer:
         return self.vectorizer[name]
 
     def fit(self, name, datamanager):
-        datamanager.X_test = self.vectorizer[name].fit_transform(datamanager.X_test)
-        datamanager.X_train = self.vectorizer[name].fit_transform(datamanager.X_train)
+
+        # print("print fils de grosse pute")
+        vectorizer = self.vectorizer[name]
+        #
+        # print("euh lol ?")
+        # print(TfidfVectorizer().transform(datamanager.initial_X_test["sentence"]).shape)
+
+        datamanager.X_train = vectorizer.fit_transform(datamanager.initial_X_train)
+        datamanager.X_test = vectorizer.transform((datamanager.initial_X_test))
+
 
     def unvectorize(self, datamanager):
         datamanager.X_test = datamanager.initial_X_test

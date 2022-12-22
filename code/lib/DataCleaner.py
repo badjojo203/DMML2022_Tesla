@@ -72,7 +72,7 @@ class DataCleaner:
         for name in names:
             cleaner = self.cleaner[name]
             datamanager.X_train = [cleaner(sentence) for sentence in datamanager.X_train]
-            datamanager.initial_X_test = [cleaner(sentence) for sentence in datamanager.initial_X_test]
+            datamanager.X_test = [cleaner(sentence) for sentence in datamanager.X_test]
 
         return datamanager
 
@@ -82,4 +82,5 @@ class DataCleaner:
     @staticmethod
     def unClean(datamanager):
         datamanager.X_test = datamanager.initial_X_test
+        datamanager.X_train = datamanager.initial_X_train
         return datamanager

@@ -1,6 +1,6 @@
 # Exemple flow
 <p>Here is an exemple of implémentation that use ourHelper lib</p>
-please go to <a href="documentation.md">documentation</a> for more information
+please go to <a href="documentation.md">documentation</a> for more information on the library used 
 
 #### init the lib
     from lib.DataVectorizer import DataVectorizer

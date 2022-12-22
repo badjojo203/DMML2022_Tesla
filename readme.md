@@ -41,18 +41,22 @@
 <p>For more information about the glossary <a href="documents/lexique.md"> click here </a></p>
 </ol>
 <h2>Results</h2>
+<h3>Our results by accuracy</h3>
+
+<img src="documents/OurResults.png">
+<p>We can see in the image below, after finding the best parameters and the best combination of cleaner/vectorizer/classifier, that
+ the combination TfidfVectorizer/MultinomialNB/empty gives the best accuracy : 0.6667</p>
+<p><br></p>
+
+<img src="documents/MultinomialNB_confusion_matrix.jpeg">
+<p>We can see in the image below, the confusion matrix of our best result</p>
+<p><br></p>
 
 <img src="documents/results.png">
-
-[//]: # (Which is the best model?)
-
-[//]: # (Show the confusion matrix.<img src="documents/ConfusionMatrix.jpg">)
-
-[//]: # (Show examples of some erroneous predictions. Can you understand where the error is coming from?)
-
-[//]: # (Do some more analysis to better understand how your model behaves.)
-
+<p>We can see in the image below, that our technique gave the best result. The combination that gave us this result was also done without data cleaning, so we can
+say that the MultinomialNB is a good technique in comparison with the other ones.</p>
+<p><br></p>
 
 <h2>Link to the Video</h2>
-
+<p>Here above, you can find the link to a YouTube video to have a visual presentation of our technique</p>
 <a href="https://www.youtube.com/watch?v=b0d5uGUHQZg">click here</a>

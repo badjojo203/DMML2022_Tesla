@@ -38,6 +38,7 @@
   </li>
 <p><br><br></p>
 <p>For more information about the approach and exemple of usage,<a href="documents/getstarted.md"> click here </a></p>
+<p>For more information about the glossary <a href="documents/lexique.md"> click here </a></p>
 </ol>
 <h2>Results</h2>
 

@@ -10,7 +10,7 @@
 <h2>Data sets</h2>
 <ul>
   <li>Training data set: includes "sentences" and "difficulty" columns</li>
-  <li>Test data set: includes only the "sentences" column for which we have to predict the difficulty</li>
+  <li>Unlabelled data set: includes only the "sentences" column for which we have to predict the difficulty</li>
 </ul>
 <h2>Approaches tested</h2>
 <ol>

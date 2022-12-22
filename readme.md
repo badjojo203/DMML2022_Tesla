@@ -37,11 +37,11 @@
     </ol>
   </li>
 <p><br><br></p>
-<p>For more information about the approach, search Approach.md in the documents folder</p>
+<p>For more information about the approach and exemple of usage,<strong>go to documents/getstarted.md</strong></p>
 </ol>
 <h2>Results</h2>
 
-[//]: # (<img src="documents/Results.jpg">)
+<img src="documents/results.png">
 
 [//]: # (Which is the best model?)
 

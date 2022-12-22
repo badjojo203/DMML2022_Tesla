@@ -37,7 +37,7 @@
     </ol>
   </li>
 <p><br><br></p>
-<p>For more information about the approach and exemple of usage,<strong>go to documents/getstarted.md</strong></p>
+<p>For more information about the approach and exemple of usage,<a href="documents/getstarted.md"> click here </a></p>
 </ol>
 <h2>Results</h2>
 

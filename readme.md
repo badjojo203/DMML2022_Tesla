@@ -55,4 +55,4 @@
 
 <h2>Link to the Video</h2>
 
-[//]: # (<a href="url">link text</a>)
+<a href="https://www.youtube.com/watch?v=b0d5uGUHQZg">click here</a>

@@ -1,6 +1,8 @@
 from sklearn.feature_extraction.text import CountVectorizer, HashingVectorizer, TfidfVectorizer
 
-
+"""
+see documentation.html for more information about this class
+"""
 class DataVectorizer:
     def __init__(self):
         self.vectorizer = {

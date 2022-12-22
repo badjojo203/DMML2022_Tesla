@@ -6,7 +6,9 @@ from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, r
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
+"""
+see documentation.html for more information about this class
+"""
 class DataManager:
 
     # data is a pandas dataframe

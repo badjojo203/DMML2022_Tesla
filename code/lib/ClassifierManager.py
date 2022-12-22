@@ -13,7 +13,9 @@ from .DataVectorizer import DataVectorizer
 
 from .DataCleaner import DataCleaner
 
-
+"""
+see documentation.html for more information about this class
+"""
 class ClassifierManager:
 
     def __init__(self, ):
@@ -97,12 +99,6 @@ class ClassifierManager:
                 for cleaner in cleaners:
                     current_iter += 1
 
-                    # print("===")
-                    # print("iter number " + str(current_iter) + " sur " + str(max_algo_iter))
-                    # print('vectorizer: ' + vec.__class__.__name__ + "\n" +
-                    #       'classifier: ' + clf.__class__.__name__ + "\n" +
-                    #       'cleaner: ' + cleaner.__name__)
-                    # print("---")
 
                     # Appliquer la méthode de nettoyage de données aux données d'entraînement et de test
                     X_train_cleaned = [cleaner(sentence) for sentence in datamanager.X_train]

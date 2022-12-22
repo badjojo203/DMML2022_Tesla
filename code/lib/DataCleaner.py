@@ -3,7 +3,9 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
-
+"""
+see documentation.html for more information about this class
+"""
 class DataCleaner:
     def __init__(self):
         self.cleaner = {
